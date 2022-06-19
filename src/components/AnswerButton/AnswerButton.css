@@ -12,6 +12,7 @@
   cursor: pointer;
   color: white;
   border-style: none;
+  z-index: 2;
 }
 
 .opening-page-answer-button {
