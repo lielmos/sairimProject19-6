@@ -1,0 +1,32 @@
+.question-button {
+  /* background-color: transparent; */
+  border-color: white;
+  border-style: solid;
+  border-radius: 4em;
+  border-width: 0.05em;
+  padding: 2vw 2.5vh;
+  max-width: 85vw;
+  min-width: 45vw;
+  min-height: 5vh;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  font-size: 1.5em;
+  letter-spacing: 0.03em;
+  color: white;
+  font-family: "CooperativeRegular";
+  background-color: #b0612b4d;
+}
+
+.right-answer-background-color {
+  background-color: #009245;
+}
+
+.wrong-answer-background-color {
+  background-color: #891f27;
+}
+
+.question-5,
+.question-6 {
+  min-width: 83vw;
+}

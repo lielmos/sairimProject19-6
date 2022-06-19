@@ -1,0 +1,57 @@
+.icons-container {
+  gap: 5vw;
+}
+
+.explanation-page-icons-container {
+  gap: 3vw;
+  margin-right: 46vw;
+  margin-top: 2vh;
+}
+
+.icons-container,
+.explanation-page-icons-container {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  justify-content: flex-end;
+}
+
+.symbol,
+.round-symbol {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.round-symbol {
+  background-image: url("/src/media/images/roundSymbol.png");
+}
+
+.symbol {
+  background-image: url("/src/media/images/symbol.png");
+}
+
+.opening-page-round-symbol {
+  width: 17vw;
+}
+
+.opening-page-symbol {
+  width: 18vw;
+}
+
+.opening-page-round-symbol,
+.opening-page-symbol {
+  height: 11vh;
+}
+
+.explanation-page-round-symbol {
+  width: 12vw;
+}
+
+.explanation-page-symbol {
+  width: 9vw;
+}
+
+.explanation-page-round-symbol,
+.explanation-page-symbol {
+  height: 6vh;
+}

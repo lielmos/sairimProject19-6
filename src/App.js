@@ -1,23 +1,66 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import OpeningPage from "./containers/OpeningPage/OpeningPage";
+import ExplanationPage from "./containers/ExplanationPage/ExplanationPage";
+import AmericanQuestionPage from "./containers/AmericanQuestionPage/AmericanQuestionPage";
+import Map1Page from "./containers/Map1Page/Map1Page";
+import Map2Page from "./containers/Map2Page/Map2Page";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 
 function App() {
+  const [useCurrQuestion, setUseCurrQuestion] = useState(0);
+  const [currExpPage, setCurrExpPage] = useState(9);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<OpeningPage />} />
+          <Route
+            exact
+            path="/ExplanationPage"
+            element={
+              <ExplanationPage
+                useCurrQuestion={useCurrQuestion}
+                setUseCurrQuestion={setUseCurrQuestion}
+                currExpPage={currExpPage}
+                setCurrExpPage={setCurrExpPage}
+              />
+            }
+          />
+          <Route
+            exact
+            path="/AmericanQuestionPage"
+            element={
+              <AmericanQuestionPage
+                useCurrQuestion={useCurrQuestion}
+                setUseCurrQuestion={setUseCurrQuestion}
+                currExpPage={currExpPage}
+                setCurrExpPage={setCurrExpPage}
+              />
+            }
+          />
+          <Route
+            exact
+            path="/Map1Page"
+            element={
+              <Map1Page
+                currExpPage={currExpPage}
+                setCurrExpPage={setCurrExpPage}
+              />
+            }
+          />
+          <Route
+            exact
+            path="/Map2Page"
+            element={
+              <Map2Page
+                currExpPage={currExpPage}
+                setCurrExpPage={setCurrExpPage}
+              />
+            }
+          />
+        </Routes>
+      </Router>
     </div>
   );
 }

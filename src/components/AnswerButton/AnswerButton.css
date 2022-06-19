@@ -1,0 +1,19 @@
+.answer-button {
+  /* background-image: linear-gradient(0deg, black, #994b28); */
+  background-image: linear-gradient(180deg, #994b29, #74391f, black);
+  border-radius: 3.5vw;
+  padding: 1.5vw 2.5vh;
+  /* margin-bottom: 1vh; */
+  max-width: 50vw;
+  width: fit-content;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "CooperativeRegular";
+  cursor: pointer;
+  color: white;
+  border-style: none;
+}
+
+.opening-page-answer-button {
+  margin-top: 3vh;
+}

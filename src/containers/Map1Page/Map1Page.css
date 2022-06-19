@@ -1,0 +1,140 @@
+.map-page {
+  position: absolute;
+  display: flex;
+  /* flex-direction: column; */
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  font-family: "CooperativeRegular";
+}
+
+.first-map {
+  position: absolute;
+  width: 57%;
+  margin-right: 20%;
+  margin-top: -18%;
+}
+
+/* map  */
+.cls-1-first-map,
+.cls-3-first-map {
+  fill: #fff;
+}
+.cls-1-first-map {
+  stroke: #42210b;
+}
+.cls-1-first-map,
+.cls-2-first-map {
+  stroke-miterlimit: 10;
+  stroke-width: 3.14px;
+}
+.cls-2-first-map {
+  fill: none;
+  stroke: #603813;
+}
+
+.father-of-draggable-answers {
+  position: absolute;
+  width: 65vw;
+  height: 20vh;
+  margin-top: 82vh;
+  margin-right: 24vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 1vh;
+  align-content: center;
+  column-gap: 1vh;
+}
+
+.draggable-answer {
+  background-color: white;
+  border-color: black;
+  border-radius: 3.5vw;
+  padding: 1vw 2vh;
+  min-height: 1vh;
+  /* max-width: 50vw; */
+  max-width: 33vw;
+  width: fit-content;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: "CooperativeRegular";
+  color: black;
+  border-width: 0.2vh;
+  border-style: solid;
+}
+
+.father-of-drop-containers {
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  margin-top: -12vh;
+}
+
+.drop-containers {
+  position: absolute;
+  background-color: white;
+  border-radius: 3.5vw;
+  padding: 1.5vw 2.5vh;
+  min-height: 2.5vh;  
+  max-width: 50vw;
+  min-width: 10vw;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.12em;
+}
+
+.map1-draged-answer {
+  font-size: 1.3em;
+  font-family: "CooperativeRegular";
+  color: black;
+}
+
+.anwsered-background-color {
+  background-color: #406c0c;
+}
+
+.map1-drop-num0 {
+  position: absolute;
+  margin-right: 64%;
+  margin-top: 122%;
+}
+
+.map1-drop-num1 {
+  margin-right: 2%;
+  margin-top: 6%;
+}
+
+.map1-drop-num2 {
+  margin-right: 35%;
+  margin-top: 7%;
+}
+
+.map1-drop-num3 {
+  margin-right: 65%;
+  margin-top: 68%;
+}
+
+.map1-drop-num4 {
+  margin-right: 32%;
+  margin-top: 54%;
+}
+
+.map1-drop-num5 {
+  margin-right: 7%;
+  margin-top: 74%;
+}
+
+.map1-page-answer-button {
+  position: absolute;
+  margin-top: 72%;
+  margin-right: 5%;
+  z-index: 1;
+}

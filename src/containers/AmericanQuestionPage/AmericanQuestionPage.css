@@ -1,0 +1,132 @@
+.american-question-page {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  /* background-image: url("/src/media/images/backgroundAmericanQuestions.png"); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  font-family: "CooperativeRegular";
+}
+
+.question-text-conatiner {
+  margin-top: 3vh;
+  width: fit-content;
+  height: fit-content;
+  font-size: 1.9em;
+  font-weight: 200;
+  max-width: 88vw;
+  max-height: 14vh;
+}
+
+.feedback-to-answer-text {
+  font-family: Shluk;
+  margin-top: 2vh;
+  letter-spacing: 0.07em;
+  -webkit-text-stroke: 0.03em black;
+  color: black;
+  font-size: 2em;
+}
+
+.american-questions-page-answer-button {
+  margin-top: -4vh;
+}
+
+/* backgroung image classes */
+.cls-1-3 {
+  fill: none;
+}
+.cls-2-3 {
+  clip-path: url(#clip-path);
+}
+.cls-3-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_2);
+}
+.cls-4-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_16);
+}
+.cls-5-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_15);
+}
+.cls-6-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_15-2);
+}
+.cls-7-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_14);
+}
+.cls-8-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_13);
+}
+.cls-9-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_12);
+}
+.cls-10-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_11);
+}
+.cls-11-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_10);
+}
+.cls-12-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_9);
+}
+.cls-13-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_8);
+}
+.cls-14-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_3);
+}
+.cls-15-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_7);
+}
+.cls-16-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_6);
+}
+.cls-17-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_5);
+}
+.cls-18-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_3-2);
+}
+.cls-19-3 {
+  /* fill: #216e98; */
+  fill: #988421;
+}
+.cls-20-3 {
+  fill: #15150a;
+}
+.cls-21-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_3-3);
+}
+.cls-22-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_3-4);
+}
+.cls-23-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_4);
+}
+.cls-24-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_4-2);
+}
+.cls-25-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_4-3);
+}
+.cls-26-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_2-2);
+}
+.cls-27-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_2-3);
+}
+.cls-28-3 {
+  clip-path: url(#clip-path-2);
+}
+.cls-29-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_5-2);
+}
+.cls-30-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_3-5);
+}
+.cls-31-3 {
+  fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_3-6);
+}
