@@ -63,6 +63,13 @@
   letter-spacing: 0.05em;
 }
 
+.cls-25-2 {
+  fill: url(#exp-clouds-color-1);
+}
+.cls-26-2 {
+  fill: url(#exp-clouds-color-2);
+}
+
 /* background classes */
 /* .cls-1-2 {
   fill: none;
