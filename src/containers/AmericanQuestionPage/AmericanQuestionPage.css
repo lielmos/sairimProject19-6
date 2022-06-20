@@ -30,6 +30,7 @@
   -webkit-text-stroke: 0.03em black;
   color: black;
   font-size: 2em;
+  z-index: 2;
 }
 
 .american-questions-page-answer-button {

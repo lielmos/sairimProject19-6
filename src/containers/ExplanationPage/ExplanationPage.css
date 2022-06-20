@@ -3,13 +3,14 @@
   flex-direction: column;
   color: white;
   text-align: center;
+  background: rgb(106,90,0);
+  background: linear-gradient(180deg, rgba(144,123,4,1) 6%, rgba(180,164,52,1) 29%, rgba(192,176,60,1) 50%, rgba(222,214,154,1) 62%, rgba(255,255,255,1) 85%);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100vw;
   height: 100vh;
   align-items: center;
   font-family: "CooperativeRegular";
-  /* background-image: url("/src/media/images/backgroundExplanationPage.png"); */
 }
 
 .explanation-page-text-0 {
@@ -23,7 +24,7 @@
 }
 
 .explanation-page-headline {
-  margin-top: 3vh;
+  margin-top: 1vh;
   width: fit-content;
   height: fit-content;
   font-size: 3em;
@@ -35,27 +36,35 @@
 .explanation-page-text-1 {
   font-size: 1.5em;
   width: 75vw;
-  margin-top: -2vh;
+  margin-top: -4vh;
   white-space: pre-wrap;
+  z-index: 1;
 }
 
 .explanation-page-text-2 {
   font-size: 1.7em;
   width: 68vw;
-  margin-top: -2vh;
+  margin-top: -3vh;
   white-space: pre-wrap;
+}
+
+.explanation-page-text-3 {
+  margin-top: 15vh;
+}
+
+.explanation-page-text-4 {
+  margin-top: 12vh;
 }
 
 .explanation-page-text-3,
 .explanation-page-text-4 {
   font-size: 2.5em;
   width: 65vw;
-  margin-top: 15vh;
   letter-spacing: 0.05em;
 }
 
 /* background classes */
-.cls-1-2 {
+/* .cls-1-2 {
   fill: none;
 }
 .cls-2-2 {
@@ -147,4 +156,4 @@
 }
 .cls-31-2 {
   fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_3-6);
-}
+} */

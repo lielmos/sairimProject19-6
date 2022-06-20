@@ -31,11 +31,11 @@
 }
 
 .opening-page-round-symbol {
-  width: 17vw;
+  width: 20vw;
 }
 
 .opening-page-symbol {
-  width: 18vw;
+  width: 17vw;
 }
 
 .opening-page-round-symbol,
@@ -44,14 +44,11 @@
 }
 
 .explanation-page-round-symbol {
-  width: 12vw;
+  height: 7vh;
+  width: 13vw;
 }
 
 .explanation-page-symbol {
-  width: 9vw;
-}
-
-.explanation-page-round-symbol,
-.explanation-page-symbol {
-  height: 6vh;
+  width: 11vw;
+  height: 7vh;
 }

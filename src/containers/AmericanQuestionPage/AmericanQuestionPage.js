@@ -25,7 +25,7 @@ export default function AmericanQuestionPage(props) {
     //   props.setCurrExpPage((prev) => prev + 1);
     //   navigate("/ExplanationPage");
     // }
-    if (props.useCurrQuestion >= 4) {
+    if (props.useCurrQuestion >= 4 && props.useCurrQuestion < 7) {
       props.setCurrExpPage((prev) => prev + 1);
       navigate("/ExplanationPage");
     }

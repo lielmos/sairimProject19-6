@@ -1,9 +1,9 @@
 .second-map {
-    position: absolute;
-    width: 57%;
-    margin-right: 20%;
-    margin-top: -34%;
-}  
+  position: absolute;
+  width: 57%;
+  margin-right: 20%;
+  margin-top: -34%;
+}
 
 .draggable-answer-map2 {
   /* font-size: 1.2em; */
@@ -32,38 +32,128 @@
 }
 
 .father-of-drop-containers-map2 {
-    position: absolute;
-    width: 100vw;
-    height: 80vh;
-    margin-top: -12vh;
-    z-index: 1;
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  margin-top: -12vh;
+  z-index: 1;
 }
 
 .father-of-symbols {
-    position: absolute;
-    width: 70%;
-    height: 73%;
-    margin-right: 20%;
-    margin-top: -34%;
+  position: absolute;
+  width: 70%;
+  height: 73%;
+  margin-right: 20%;
+  margin-top: -34%;
 }
 
+/* logos/symbols */
+
 .symbols {
-    background-size: 100% 100%;
-    position: absolute;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 7vw;
+  height: 5vh;
 }
 
 .logo0 {
-    background-image: url("/src/media/images/logo-Shahaf.png");
-    width: 6vw;
-    height: 4vh;
-    margin-top: 17%;
-    margin-right: 27%;
+  background-image: url("/src/media/images/logo-Shahaf.png");
+  margin-top: 9%;
+  margin-right: 29%;
+}
+
+.logo1 {
+  background-image: url("/src/media/images/logo-Nizan.png");
+  margin-top: 65%;
+  margin-right: 28%;
+}
+
+.logo2 {
+  background-image: url("/src/media/images/logo-Nesher.png");
+  margin-top: 81%;
+  margin-right: 62%;
 }
 
 .logo3 {
-    background-image: url("/src/media/images/logo-Ait.png");
-    width: 6vw;
-    height: 4vh;
-    margin-top: 7%;
-    margin-right: 6%;
+  background-image: url("/src/media/images/logo-Ait.png");
+  margin-top: 2%;
+  margin-right: -8%;
+}
+
+.logo4 {
+  background-image: url("/src/media/images/logo-Hativat-417.png");
+  margin-top: 36%;
+  margin-right: 0%;
+}
+
+.logo5 {
+  background-image: url("/src/media/images/logo-Eitam.png");
+  margin-top: 161%;
+  margin-right: 42.5%;
+}
+
+.logo6 {
+  background-image: url("/src/media/images/logo-Hativa-Faran.svg.png");
+  margin-top: 117%;
+  margin-right: 44.5%;
+}
+
+/* drop target places map 2 */
+
+.map2-drop-num0 {
+  margin-right: 49%;
+  margin-top: 7%;
+}
+
+.map2-drop-num1 {
+  margin-right: 31%;
+  margin-top: 57%;
+}
+
+.map2-drop-num2 {
+  margin-right: 64%;
+  margin-top: 67%;
+}
+
+.map2-drop-num3 {
+  margin-right: 8%;
+  margin-top: 11%;
+}
+
+.map2-drop-num4 {
+  margin-right: 58%;
+  margin-top: 115%;
+}
+
+.map2-drop-num5 {
+  margin-right: 4%;
+  margin-top: 35%;
+}
+
+.map2-drop-num6 {
+  margin-right: 40%;
+  margin-top: 92%;
+}
+
+.drop-containers-map2 {
+  background-color: #ffffff3b;
+  border-color: #000000cc;
+  border-width: 0.5vw;
+}
+
+.anwsered-background-color {
+  background-color: #406c0c;
+  /* background-color: #186c0c; */
+}
+
+.map2-draged-answer {
+  font-family: "CooperativeRegular";
+  color: black;
+}
+
+.map2-page-answer-button {
+  position: absolute;
+  margin-top: 12%;
+  margin-right: 3%;
+  z-index: 2;
 }
