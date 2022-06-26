@@ -6,7 +6,6 @@
 }
 
 .draggable-answer-map2 {
-  /* font-size: 1.2em; */
   font-size: 1.03em;
   width: fit-content;
   max-width: 30vw;
@@ -45,6 +44,7 @@
   height: 73%;
   margin-right: 20%;
   margin-top: -34%;
+  z-index: 0;
 }
 
 /* logos/symbols */

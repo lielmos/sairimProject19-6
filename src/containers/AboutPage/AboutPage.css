@@ -1,0 +1,37 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  background: rgb(0, 43, 177);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 43, 177, 0.9220063025210083) 0%,
+    rgba(105, 196, 222, 1) 50%,
+    rgba(255, 255, 255, 0.9920343137254902) 76%
+  );
+  /* background: linear-gradient(180deg, rgba(0,43,177,0.9220063025210083) 0%, rgba(105,196,222,1) 40%, rgba(255,255,255,0.9920343137254902) 69%); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  font-family: "CooperativeRegular";
+}
+
+.about-page-headline {
+    font-size: 2.3em;
+    width: 50vw;
+    margin-top: 5vh;
+    letter-spacing: 0.07em;
+    font-weight: 100;
+}
+
+.about-page-text {
+    font-size: 1.5em;
+    width: 78vw;
+    margin-top: -1vh;
+    letter-spacing: 0.05em;
+    font-weight: 100;
+    line-height: 1.5em;
+}

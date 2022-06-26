@@ -4,6 +4,8 @@ import ExplanationPage from "./containers/ExplanationPage/ExplanationPage";
 import AmericanQuestionPage from "./containers/AmericanQuestionPage/AmericanQuestionPage";
 import Map1Page from "./containers/Map1Page/Map1Page";
 import Map2Page from "./containers/Map2Page/Map2Page";
+import FinishedPage from "./containers/FinishedPage/FinishedPage";
+import AboutPage from "./containers/AboutPage/AboutPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 
@@ -59,6 +61,8 @@ function App() {
               />
             }
           />
+          <Route exact path="/FinishedPage" element={<FinishedPage />} />
+          <Route exact path="/AboutPage" element={<AboutPage />} />
         </Routes>
       </Router>
     </div>

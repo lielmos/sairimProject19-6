@@ -1,0 +1,8 @@
+.finished-page-text {
+  font-size: 3.7em;
+  width: 80vw;
+  margin-top: 6vh;
+  white-space: pre-wrap;
+  z-index: 1;
+  letter-spacing: 0.06em;
+}
