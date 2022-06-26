@@ -6,7 +6,6 @@
 }
 
 .draggable-answer-map2 {
-  /* font-size: 1.03em; */
   font-size: 0.8em;
   width: fit-content;
   max-width: 30vw;
@@ -27,7 +26,7 @@
   row-gap: 0.5vh;
   column-gap: 0.3vw;
   justify-content: center;
-  z-index: 2;
+  /* z-index: 2; */
   margin-right: 14%;
   max-width: 72vw;
 }
@@ -39,7 +38,7 @@
   margin-top: -12vh; */
   height: 72vh;
   margin-top: -20vh;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .father-of-symbols {
