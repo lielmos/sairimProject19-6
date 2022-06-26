@@ -4,13 +4,15 @@ import data from "../../data.json";
 import { DragDropContainer, DropTarget } from "react-drag-drop-container";
 import AnswerButton from "../../components/AnswerButton/AnswerButton";
 import { useNavigate } from "react-router-dom";
-// import { gsap } from "gsap";
+import { gsap } from "gsap";
 
 export default function Map1Page(props) {
   let navigate = useNavigate();
   const [dropTarget, setDropTarget] = useState([0, 0, 0, 0, 0, 0]);
   const [isHit, setIsHit] = useState(false);
   const [countAnswered, setCountedAnswered] = useState(0);
+
+  gsap.to(".anwsered-background-color", {backgroundColor: "#009245"});
 
   const dropped = (e) => {
     setIsHit(true);
