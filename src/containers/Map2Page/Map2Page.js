@@ -4,6 +4,7 @@ import data from "../../data.json";
 import { DragDropContainer, DropTarget } from "react-drag-drop-container";
 import AnswerButton from "../../components/AnswerButton/AnswerButton";
 import { useNavigate } from "react-router-dom";
+import { gsap } from "gsap";
 
 export default function Map2Page(props) {
   let navigate = useNavigate();
@@ -19,6 +20,7 @@ export default function Map2Page(props) {
     setDropTarget(item);
     e.containerElem.style.display = "none";
     setCountedAnswered((prev) => prev + 1);
+    gsap.to(`.map2-drop-num${e.dragData.index.index}`, {backgroundColor: "#4d850c"});
   };
 
   const dragEnd = (e) => {
@@ -580,9 +582,7 @@ export default function Map2Page(props) {
           return (
             <DropTarget targetKey={`base${index}`} key={index} onHit={dropped}>
               <div
-                className={`drop-containers drop-containers-map2 map2-drop-num${index} ${
-                  dropTarget[index] === 1 && `anwsered-background-color`
-                }`}
+                className={`drop-containers drop-containers-map2 map2-drop-num${index}`}
               >
                 {dropTarget[index] === 1 && (
                   <div className="draggable-answer-map2 map2-draged-answer">{answer}</div>

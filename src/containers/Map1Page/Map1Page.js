@@ -12,8 +12,6 @@ export default function Map1Page(props) {
   const [isHit, setIsHit] = useState(false);
   const [countAnswered, setCountedAnswered] = useState(0);
 
-  gsap.to(".anwsered-background-color", {backgroundColor: "#009245"});
-
   const dropped = (e) => {
     setIsHit(true);
     e.stopPropagation();
@@ -22,6 +20,7 @@ export default function Map1Page(props) {
     setDropTarget(item);
     e.containerElem.style.display = "none";
     setCountedAnswered((prev) => prev + 1);
+    gsap.to(`.map1-drop-num${e.dragData.index.index}`, {backgroundColor: "#4d850c"});
   };
 
   const dragEnd = (e) => {
@@ -579,9 +578,7 @@ export default function Map1Page(props) {
               onHit={dropped}
             >
               <div
-                className={`drop-containers map1-drop-num${index} ${
-                  dropTarget[index] === 1 && `anwsered-background-color`
-                }`}
+                className={`drop-containers map1-drop-num${index}`}
               >
                 {dropTarget[index] === 1 && (
                   <div className="map1-draged-answer">{answer}</div>
@@ -594,3 +591,9 @@ export default function Map1Page(props) {
     </div>
   );
 }
+
+{/* <div
+className={`drop-containers map1-drop-num${index} ${
+  dropTarget[index] === 1 && `anwsered-background-color`
+}`}
+> */}
