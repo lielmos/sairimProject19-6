@@ -129,6 +129,11 @@
 
 /* iphone 12 pro */
 @media only screen and (min-width: 390px) and (min-height: 844px) {
-  .desert-svg {margin-top: 138%;}
+  .desert-svg {margin-top: 140%;}
   .opening-page-icons-container{margin-top: 30%;}
+}
+
+/* Galaxy S20 FE */
+@media only screen and (min-width: 412px) and (min-height: 914px) {
+  .desert-svg {margin-top: 146%;}
 }

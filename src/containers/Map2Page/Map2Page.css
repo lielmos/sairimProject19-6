@@ -261,3 +261,16 @@
     margin-right: 22%;
   }
 }
+
+/* Galaxy S20 FE */
+@media only screen and (min-width: 412px) and (min-height: 914px) {
+  .desert-svg-maps {
+    margin-top: 146%;
+  }
+
+  .father-of-draggable-answers-map2 {
+    margin-top: 150%;
+    margin-right: 6%;
+    max-width: 86%;
+  }
+}

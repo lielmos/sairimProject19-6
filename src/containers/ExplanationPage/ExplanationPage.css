@@ -22,7 +22,8 @@
 
 .explanation-page-text-0 {
   font-size: 2.2em;
-  width: 54vw;
+  /* width: 54vw; */
+  width: 54%;
   margin-top: 10%;
   /* margin-top: 6vh; */
   letter-spacing: 0.02em;
@@ -85,7 +86,7 @@
 @media only screen and (min-width: 390px) and (min-height: 844px) {
   .explanation-page-text-0 {
     font-size: 2.5em;
-    width: 58vw;
+    width: 58%;
     margin-top: 15%;
   }
 
@@ -113,4 +114,14 @@
     margin-top: 25%;
   }
 
+}
+
+/* Galaxy S20 FE */
+@media only screen and (min-width: 412px) and (min-height: 914px) {
+  .explanation-page-text-0 {
+    font-size: 2.5em;
+    width: 58%;
+    margin-top: 25%;
+    z-index: 1;
+  }
 }

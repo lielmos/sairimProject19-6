@@ -22,7 +22,7 @@
 .about-page-headline {
     font-size: 2.3em;
     width: 50vw;
-    margin-top: 5vh;
+    margin-top: 9%;
     letter-spacing: 0.07em;
     font-weight: 100;
 }
@@ -30,16 +30,17 @@
 .about-page-text {
     font-size: 1.5em;
     width: 78vw;
-    margin-top: -1vh;
+    margin-top: -2%;
     letter-spacing: 0.05em;
     font-weight: 100;
     line-height: 1.5em;
+    z-index: 1;
 }
 
 
 /* iphone 12 pro */
 @media only screen and (min-width: 390px) and (min-height: 844px) {
   .about-page-headline {
-    margin-top: 7vh;
+    margin-top: 13%;
   }
 }

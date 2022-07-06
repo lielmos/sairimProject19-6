@@ -205,3 +205,11 @@
     margin-top: 54%;
   } */
 }
+
+
+/* Galaxy S20 FE */
+@media only screen and (min-width: 412px) and (min-height: 914px) {
+  .desert-svg-maps {
+    margin-top: 146%;
+  }
+}
