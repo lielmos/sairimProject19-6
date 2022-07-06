@@ -449,9 +449,9 @@ export default function AboutPage(props) {
       ></IconsContainer>
       <h1 className="about-page-headline">אודות</h1>
       <p className="about-page-text">
-        ראש מדור מט"ח: רס"ן מור דהן 
+        ראש מדור מט"ח: רס"ן מור יהלומי - דאהן 
         <br></br>
-        מפקדת הדיגיטל: סג"ן יעל חפץ
+        מפקדת הדיגיטל: סגן יעל חפץ
         <br></br>
         מפקדת הסטודיו: סג"מ שיר יפה
         <br></br>
@@ -459,7 +459,7 @@ export default function AboutPage(props) {
         <br></br>
         עיצוב: סמל יובל שוקר 
         <br></br>
-        מומחה תוכן: סג"ן מוריה קורסיאס
+        מומחה תוכן: סגן מוריה קורסיאס
       </p>
     </div>
   );
