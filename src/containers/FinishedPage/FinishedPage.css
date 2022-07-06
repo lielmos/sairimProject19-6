@@ -6,3 +6,10 @@
   z-index: 1;
   letter-spacing: 0.06em;
 }
+
+/* iphone 12 pro */
+@media only screen and (min-width: 390px) and (min-height: 844px) {
+  .finished-page-text {
+    margin-top: 10vh;
+  }
+}

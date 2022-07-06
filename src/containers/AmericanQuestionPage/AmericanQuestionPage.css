@@ -14,7 +14,8 @@
 }
 
 .question-text-conatiner {
-  margin-top: 3vh;
+  /* margin-top: 3vh; */
+  margin-top: 6%;
   width: fit-content;
   height: fit-content;
   font-size: 1.9em;
@@ -41,4 +42,12 @@
   position: absolute;
   margin-top: 110%;
   z-index: 0;
+}
+
+/* iphone 12 pro */
+@media only screen and (min-width: 390px) and (min-height: 844px) {
+  .desert-svg-questions{margin-top: 138%;}
+  .question-text-conatiner{margin-top: 8%;}
+  .feedback-to-answer-text{margin-top: 5%;}
+  .american-questions-page-answer-button{margin-top: -5%;}
 }

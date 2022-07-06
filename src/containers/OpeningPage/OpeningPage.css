@@ -5,7 +5,6 @@
   text-align: center;
   background: rgb(0,43,177);
   background: linear-gradient(180deg, rgba(0,43,177,0.9220063025210083) 0%, rgba(105,196,222,1) 50%, rgba(255,255,255,0.9920343137254902) 76%);
-  /* background: linear-gradient(180deg, rgba(0,43,177,0.9220063025210083) 0%, rgba(105,196,222,1) 40%, rgba(255,255,255,0.9920343137254902) 69%); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100vw;
@@ -15,7 +14,8 @@
 }
 
 .opening-page-icons-container {
-  margin-top: 7vh;
+  margin-top: 13%;
+  /* margin-top: 7vh; */
 }
 
 .opening-page-text-container {
@@ -125,4 +125,10 @@
 }
 .cls-26-1 {
   fill: url(#ÅÂÁ_Ï_ÌÌ_È_ËÂÌÚ_2);
+}
+
+/* iphone 12 pro */
+@media only screen and (min-width: 390px) and (min-height: 844px) {
+  .desert-svg {margin-top: 138%;}
+  .opening-page-icons-container{margin-top: 30%;}
 }

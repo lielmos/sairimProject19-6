@@ -5,7 +5,7 @@
 .explanation-page-icons-container {
   gap: 3vw;
   margin-right: 46vw;
-  margin-top: 2vh;
+  margin-top: 4%;
 }
 
 .icons-container,
@@ -51,4 +51,11 @@
 .explanation-page-symbol {
   width: 11vw;
   height: 7vh;
+}
+
+/* iphone 12 pro */
+@media only screen and (min-width: 390px) and (min-height: 844px) {
+  .explanation-page-icons-container {
+    margin-top: 6%;
+  }
 }

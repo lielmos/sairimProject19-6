@@ -35,3 +35,11 @@
     font-weight: 100;
     line-height: 1.5em;
 }
+
+
+/* iphone 12 pro */
+@media only screen and (min-width: 390px) and (min-height: 844px) {
+  .about-page-headline {
+    margin-top: 7vh;
+  }
+}
